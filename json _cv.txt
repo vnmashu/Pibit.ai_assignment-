@@ -1,0 +1,141 @@
+Please parse the content of the resume provided below into JSON format. 
+
+Here is the resume:
+
+Ashutosh Chandra 
+Linkedin: https://shorturl.at/i4veu 
+Email: ashutoshchandra112@gmail.com 
+Github: https://github.com/vnmashu 
+Mobile: 8340462504 
+
+SKILLS 
+- Languages: C/C++, JavaScript, Python, Java 
+- Web technologies & Frameworks: HTML, CSS, Reactjs, TailwindCSS, MaterialUI, Nodejs 
+- Tools/Databases: MySQL, MongoDB 
+- Soft Skills: Problem-Solving Skills, Team Player, Project Management, Adaptability 
+
+PROJECTS 
+1. Handwritten Digit Recognition Model - (Feb 2024) 
+   - Developed and Implemented Machine Learning Models: Designed and implemented algorithms using Python and TensorFlow to recognize handwritten digits, achieving over 98% accuracy on the MNIST dataset.
+   - Optimized Model Performance: Enhanced the digit recognition model by fine-tuning hyperparameters and using convolutional neural networks (CNNs), reducing error rates and improving efficiency.
+   - Collaborated on Team-Based Projects: Worked with a team of data scientists and machine learning.
+
+2. Mernchat-app – (March 2024)
+   - Developed a real-time chat application using the MERN stack (MongoDB, Express.js, React, Node.js), enabling seamless and instant communication for users.
+   - Implemented user authentication and authorization features using JWT and bcrypt, ensuring secure login and data protection.
+   - Optimized performance and scalability by employing efficient database queries and WebSocket protocols, resulting in a responsive and reliable user experience.
+
+3. Shopee – (July 2024)
+   - Developed a comprehensive e-commerce mobile application for Shopee, incorporating user-friendly interfaces and seamless navigation to enhance the shopping experience.
+   - Integrated secure payment gateways and implemented robust data encryption to ensure the protection of user transactions and sensitive information.
+   - Optimized app performance and responsiveness by utilizing efficient coding practices and leveraging the latest mobile development frameworks, resulting in a 20% increase in user engagement and retention.
+
+CERTIFICATES
+- C++ Object basics by Stanford University
+- Data Structures and Algorithms Coursera
+- Advanced ReactJS by Meta
+- Machine Learning Specialization by Coursera
+- Empowering with web3.js: Web3 Applications by EDUCBA
+
+ACHIEVEMENTS
+- Secured a rank of 8211 in Leetcode’s Weekly contest in the month of April among 20k+ participants.
+- Secured a rank of 1598 in Codechef’s Long challenge in the month of October among 12k+ participants.
+- Solved more than 400+ problems on Leetcode and Hackerrank.
+
+CODING PROFILES
+- Leetcode: https://leetcode.com/u/ashutoshchandra112/
+- Hackerrank: https://www.hackerrank.com/profile/ashutoshchandr11
+
+EDUCATION
+- Lovely Professional University, Punjab, India
+  Bachelor of Technology - Computer Science and Engineering; CGPA: 7.10
+- S.K. Mother International School, Muzaffarpur, Bihar
+  Intermediate; Percentage: 93% (2020- 2021)
+- Kendriya Vidyalaya, Muzaffarpur, Bihar
+  Matriculation; Percentage: 86% (2018 -2019)
+
+The JSON format should be as follows:
+
+```json
+{
+  "name": "Ashutosh Chandra",
+  "contact": {
+    "linkedin": "https://shorturl.at/i4veu",
+    "email": "ashutoshchandra112@gmail.com",
+    "github": "https://github.com/vnmashu",
+    "mobile": "8340462504"
+  },
+  "skills": {
+    "languages": ["C/C++", "JavaScript", "Python", "Java"],
+    "web_technologies_frameworks": ["HTML", "CSS", "Reactjs", "TailwindCSS", "MaterialUI", "Nodejs"],
+    "tools_databases": ["MySQL", "MongoDB"],
+    "soft_skills": ["Problem-Solving Skills", "Team Player", "Project Management", "Adaptability"]
+  },
+  "projects": [
+    {
+      "name": "Handwritten Digit Recognition Model",
+      "date": "Feb 2024",
+      "details": [
+        "Developed and Implemented Machine Learning Models: Designed and implemented algorithms using Python and TensorFlow to recognize handwritten digits, achieving over 98% accuracy on the MNIST dataset.",
+        "Optimized Model Performance: Enhanced the digit recognition model by fine-tuning hyperparameters and using convolutional neural networks (CNNs), reducing error rates and improving efficiency.",
+        "Collaborated on Team-Based Projects: Worked with a team of data scientists and machine learning."
+      ]
+    },
+    {
+      "name": "Mernchat-app",
+      "date": "March 2024",
+      "details": [
+        "Developed a real-time chat application using the MERN stack (MongoDB, Express.js, React, Node.js), enabling seamless and instant communication for users.",
+        "Implemented user authentication and authorization features using JWT and bcrypt, ensuring secure login and data protection.",
+        "Optimized performance and scalability by employing efficient database queries and WebSocket protocols, resulting in a responsive and reliable user experience."
+      ]
+    },
+    {
+      "name": "Shopee",
+      "date": "July 2024",
+      "details": [
+        "Developed a comprehensive e-commerce mobile application for Shopee, incorporating user-friendly interfaces and seamless navigation to enhance the shopping experience.",
+        "Integrated secure payment gateways and implemented robust data encryption to ensure the protection of user transactions and sensitive information.",
+        "Optimized app performance and responsiveness by utilizing efficient coding practices and leveraging the latest mobile development frameworks, resulting in a 20% increase in user engagement and retention."
+      ]
+    }
+  ],
+  "certificates": [
+    "C++ Object basics by Stanford University",
+    "Data Structures and Algorithms Coursera",
+    "Advanced ReactJS by Meta",
+    "Machine Learning Specialization by Coursera",
+    "Empowering with web3.js: Web3 Applications by EDUCBA"
+  ],
+  "achievements": [
+    "Secured a rank of 8211 in Leetcode’s Weekly contest in the month of April among 20k+ participants.",
+    "Secured a rank of 1598 in Codechef’s Long challenge in the month of October among 12k+ participants.",
+    "Solved more than 400+ problems on Leetcode and Hackerrank."
+  ],
+  "coding_profiles": {
+    "leetcode": "https://leetcode.com/u/ashutoshchandra112/",
+    "hackerrank": "https://www.hackerrank.com/profile/ashutoshchandr11"
+  },
+  "education": [
+    {
+      "institution": "Lovely Professional University",
+      "location": "Punjab, India",
+      "degree": "Bachelor of Technology - Computer Science and Engineering",
+      "cgpa": "7.10"
+    },
+    {
+      "institution": "S.K. Mother International School",
+      "location": "Muzaffarpur, Bihar",
+      "degree": "Intermediate",
+      "percentage": "93%",
+      "years": "2020-2021"
+    },
+    {
+      "institution": "Kendriya Vidyalaya",
+      "location": "Muzaffarpur, Bihar",
+      "degree": "Matriculation",
+      "percentage": "86%",
+      "years": "2018-2019"
+    }
+  ]
+}
